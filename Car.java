@@ -1,10 +1,10 @@
 public class Car {
 
-    String model;
-    int year;
-    double price;
-    String color;
-    int power;
+    private String model;
+    private int year;
+    private double price;
+    private String color;
+    private int power;
     boolean status;
     boolean trunk;
 
@@ -17,6 +17,8 @@ public class Car {
         this.status = false;
         this.trunk = true;
     }
+
+   
 
     public void getInfo() {
         System.out.println(model + " " + year + " " + price + " " + color + " " + power);
